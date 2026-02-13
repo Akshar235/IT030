@@ -57,6 +57,12 @@
       margin-right: 10px;
     }
 
+    nav ul {
+      list-style: none:;
+      color#1356
+
+    }
+
     #nav a:hover, nav a:hover {
       text-decoration: underline;
     }
@@ -84,7 +90,7 @@
       padding: 14px;
     }
 
-    .post, <h2> {
+    .post, article {
       border: 1px solid #e5e7eb;
       border-radius: 10px;
       padding: 12px;
@@ -93,7 +99,6 @@
     }
 
     /* Heading styling works whether students convert div titles to h1/h2 */
-    #< I used <header> for _ because _ -->
     <h1> {
       font-size: 22px;
       margin: 0 0 6px 0;
@@ -135,41 +140,43 @@
     }
   </style>
 </head>
-#<! I used <header> for _ because _ -->
 <body>
   <div class="container">
-
-    <header id= "header"
-     <div class="logo">Hofstra Student Services</div>
+<!-- I used <header> for the website title and the tagline because of the introduction to the page.
+    <header id= "header">
+     <h1>Hofstra Student Services</h1>
       <div class="tagline">Updates, deadlines, and announcements</div>
     </div>
 
     <!-- Students should convert this into <nav> containing a real list (<ul><li><a>) -->
-    #< I used <nav> for _ because _ -->
+    #<-- I used <nav> for Home,Announcements,Events,and Contact because it is the main website. -->
     <nav id="nav">
-  
-      <a href="#">Home</a>
-      <a href="#">Announcements</a>
-      <a href="#">Events</a>
-      <a href="#">Contact</a>
+      <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Announcements</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Contact</a><li>
+    </ul>
+  </nav>
     </div>
 
     <div class="layout">
+      <-- I used <main> for the Registration Reminder and the Library Workshop because this is the content of it's page.
       <main id="content">
 =
         <!-- Students should convert each .post into an <article> with an <h2> -->
-        #<! -- I used <article> for _ because _ -->
+        <!--
         <article class="post">
           <!-- Students should convert this into headings (h1/h2) and fix hierarchy -->
-          <div class="title">Registration Reminder</div>
+          <h2> Registration Reminder</h2>
           <div class="meta">Posted Feb 12</div>
-          <div class="text">
+          <p>
             Course registration closes Friday. Meet with your advisor if you have holds.
           </div>
         </div>
-
+<!-- I used <article> for each of the announcement because the posts are seperated.
         <article class="post">
-          <div class="title">Library Workshop</div>
+          <h2>Library Workshop</h2>
           <div class="meta">Posted Feb 10</div>
           <div class="text">
             A research skills workshop is available this week. Limited seats.
@@ -179,7 +186,7 @@
       </div>
 
       <!-- Students should convert this into <aside> -->
-      #<! -- I used <article> for ___ becuase ___ -->
+      <!-- I used <aside> to the related links and Contact section because the information is different from the main content.
       <aside id="sidebar">
 
         <div class="box">
