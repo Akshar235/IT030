@@ -9,3 +9,15 @@ color: pink;
 #special {
 color: black;
 }
+
+body p { 
+color: gray;
+}
+
+body .highlight {
+color: blue;
+}
+
+body .highlight {
+    color: green;
+}
