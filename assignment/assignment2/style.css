@@ -1,1 +1,27 @@
+body {
+    font-family:Arial;
+    background-color:darkred;
+}
 
+h1 {
+    font-size: 10px;
+    margin :30 px;
+}
+
+h2 {
+    color: lightblue;
+}
+
+p {
+    line-height: 22px;
+}
+
+a {
+     color: darkgreen;
+}
+
+.section-box {
+      padding: 17 px;
+      border: 2 px solid gray;
+      margin-bottom: 12 px;
+}
