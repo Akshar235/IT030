@@ -1,0 +1,62 @@
+<!DOCTYPE html> <!-- Declares HTML5 document -->
+<html lang="en"> <!-- Root element with English language -->
+
+<head>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6BNZWYW9E5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6BNZWYW9E5');
+</script>
+<meta charset="UTF-8"> <!-- Supports special characters -->
+<title>Akshar Gopa</title> <!-- Page title in browser tab -->
+<link rel="stylesheet" href="style.css"> <!-- Links external CSS file -->
+</head>
+
+<body> <!-- Starts visible page content -->
+
+<header class="header"> <!-- Header section -->
+    <h1>Akshar Gopa</h1> <!-- Website title -->
+    
+    <nav> <!-- Navigation menu -->
+        <a href="index.html" class="active" onclick="gtag('event','nav_click',{link_name:'home'})">Home</a> <!-- Current page -->
+        <a href="about.html" onclick="gtag('event','nav_click',{link_name:'about'})">About</a> <!-- About page link -->
+        <a href="work.html" onclick="gtag('event','nav_click',{link_name:'work'})">Work</a> <!-- Work page link -->
+        <a href="contact.html" onclick="gtag('event','nav_click',{link_name:'contact'})">Contact</a> <!-- Contact page link -->
+        <a href="product.html" onclick="gtag('event','nav_click',{link_name:'product'})">Product</a> <!-- Product page link -->
+    </nav>
+</header>
+
+<main> <!-- Main content area -->
+
+	<section class="section-box"> <!-- First content box -->
+    	 <h2>Welcome</h2> <!-- Section title -->
+    	 <p>My name is Akshar Gopa, an undergraduate student at Hofstra University (Zarb School of Business), a professional in progress, created my portfolio website to share my story and to explain more about me.
+    	 </p> <!-- Introduction paragraph -->
+	</section>
+
+	<section class="section-box flex"> <!-- Second section with flex layout -->
+    	 <img src="images/akshargopa.jpg" alt="My Photo" class="image"> <!-- Profile image -->
+    	 <div> <!-- Text container -->
+          <h2>Featured</h2> <!-- Section title -->
+          <p>Hello! I am a beginner web developer learning HTML and CSS. This site shows my work and goals.</p>
+          <p>I started enjoying creating simple websites and improving my coding skills every day.</p>
+   	 </div>
+	</section>
+
+	<section class="section-box">
+      <h2>Skills Snapshot</h2>
+      <p>I am currently building skills in HTML, CSS, and JavaScript fundamentals. I focus on clean structure, readable styling, and practical interaction features in my web projects.</p>
+	</section>
+
+</main>
+
+<footer> <!-- Footer section -->
+    <p>© 2026 Akshar Gopa</p> <!-- Copyright text -->
+</footer>
+
+</body> <!-- Ends page content -->
+</html> <!-- Ends HTML document -->
